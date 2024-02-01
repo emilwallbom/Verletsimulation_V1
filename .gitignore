@@ -2,6 +2,8 @@
 **/*.exe
 build/*
 .vscode/*
+CMakeFiles/*
+external/*
 bin-*/*
 distrib/build_*/*
 **.bak
