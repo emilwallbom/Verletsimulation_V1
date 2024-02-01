@@ -18,13 +18,13 @@ GLFWwindow *window;
 
 /*
 Window has coordinate system:
-(-1000,1000)	(1000,1000)
-	+-----------+
-	|			|
-	|	(0,0)	|
-	|			|
-	+-----------+
-(-1000,-1000)	(1000,-1000)
+(-1000,1000)    (1000,1000)
+	 +-----------+
+	 |           |
+	 |   (0,0)   |
+	 |           |
+	 +-----------+
+(-1000,-1000)   (1000,-1000)
 
 (Change in vertex shader)
 */
@@ -38,9 +38,7 @@ void add_ball_on_press(Solver &solver, bool &once)
 		// once = false;
 	}
 	if (glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_RELEASE)
-	{
 		once = true;
-	}
 }
 
 int main(void)
@@ -94,7 +92,6 @@ int main(void)
 		if (t - second >= 1.0)
 		{
 			std::cout << frameCount << std::endl;
-
 			frameCount = 0;
 			second = t;
 		}

@@ -4,6 +4,7 @@ build/*
 .vscode/*
 CMakeFiles/*
 external/*
+common/stb_image.h
 bin-*/*
 distrib/build_*/*
 **.bak
