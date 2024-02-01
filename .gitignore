@@ -1,0 +1,8 @@
+**/*.dll
+**/*.exe
+build/*
+.vscode/*
+bin-*/*
+distrib/build_*/*
+**.bak
+**.orig
